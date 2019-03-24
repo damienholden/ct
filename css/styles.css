@@ -4,6 +4,10 @@ body{
     color:#333;
     
 }
+#contentContainer{
+    display: none;
+}
+
 .searchDetails{
     background-color:white;
 }
@@ -61,12 +65,28 @@ body{
 #body.loaded .fadein {
     opacity: 1;
 }
-#errorBanner{
-    display: none;
-}
+
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
     color:#21456d;
 }
 .fa, .fas, .far{
     color:#35557A;
+}
+.searchDetails{
+    margin-top:20px;
+}
+#singleCar{
+    margin-top:20px;
+    
+}
+
+.fade-in{
+    animation:opac 0.8s
+}
+@keyframes opac
+{
+    from{opacity:0} 
+to{
+    opacity:1
+}
 }
